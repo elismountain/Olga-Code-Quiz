@@ -2,24 +2,24 @@
 
 const quizQuestions = [
     {
-      question: "Inside which HTML element do we put the JavaScript?",
-      choices: ["<js>", "<javascript>", "<scripting>", "<script>"],
-      answer: "<script>"
+      "question-title": "Inside which HTML element do we put the JavaScript?",
+      "choices": ["<js>", "<javascript>", "<scripting>", "<script>"],
+      "answer": "<script>"
     },
 
     {
-      question: "Where is the correct place to insert a JavaScript?",
-      choices: [
+        "question-title": "Where is the correct place to insert a JavaScript?",
+        "choices": [
         "The <body> section", 
         "Both the <head> section and the <body> section are correct", 
         "The <head> section"
         ],
-      answer: "Both the <head> section and the <body> section are correct"
+      "answer": "Both the <head> section and the <body> section are correct"
     },
 
     {
-      question: "What is the correct syntax for referring to an external script called 'xxx.js'?",
-      choices: ['<script href="xxx.js">', '<script name="xxx.js">', '<script src="xxx.js">'],
-      answer: '<script src="xxx.js">'
+        "question-title": "What is the correct syntax for referring to an external script called 'xxx.js'?",
+      "choices": ['<script href="xxx.js">', '<script name="xxx.js">', '<script src="xxx.js">'],
+      "answer": '<script src="xxx.js">'
     },
   ];
